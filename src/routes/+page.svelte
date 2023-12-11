@@ -14,7 +14,9 @@
 <body>  
     <section class="headerOfWebSite"> 
         <nav>
-            <a href="index.html"><img src="https://github.com/normatov-d-auca-2021/AUCAKIT2023/blob/master/src/routes/images/Mountain-logo-template-on-transparent-background-PNG.png"></a>
+            <a href="+page.svelte">
+                <img src="https://github.com/normatov-d-auca-2021/AUCAKIT2023/blob/master/src/routes/images/Mountain-logo-template-on-transparent-background-PNG.png" alt="Mountain Logo">
+            </a>
             <div class="navigationLinks" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu() "></i>
                     <ul>
