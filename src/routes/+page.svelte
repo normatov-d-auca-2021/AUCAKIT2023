@@ -14,7 +14,7 @@
 <body>  
     <section class="headerOfWebSite"> 
         <nav>
-            <a href="index.html"><img src="images/Mountain-logo-template-on-transparent-background-PNG.png"></a>
+            <a href="index.html"><img src="static/Mountain-logo-template-on-transparent-background-PNG.png"></a>
             <div class="navigationLinks" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu() "></i>
                     <ul>
@@ -74,21 +74,21 @@
 
         <div class="row">
             <div class="tovisit-col">
-                <img src="images/стела.jpg">
+                <img src="static/стела.jpg">
                 <div class="layer">
                     <h3>DUSHANBE</h3>
                 </div>
             </div>
 
             <div class="tovisit-col">
-                <img src="images/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg">
+                <img src="static/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg">
                 <div class="layer">
                     <h3>ISKANDERKUL</h3>
                 </div>
             </div>
 
             <div class="tovisit-col">
-                <img src="images/Edited-Pamir-Highway-1024x672.jpg">
+                <img src="static/Edited-Pamir-Highway-1024x672.jpg">
                 <div class="layer">
                     <h3>PAMIR HIGHWAY</h3>
                 </div>
