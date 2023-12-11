@@ -14,7 +14,7 @@
 <body>  
     <section class="headerOfWebSite"> 
         <nav>
-            <a href="index.html"><img src="static/Mountain-logo-template-on-transparent-background-PNG.png"></a>
+            <a href="index.html"><img src="/Users/doryushnormatov/AUCAKIT2023/static/Mountain-logo-template-on-transparent-background-PNG.png"></a>
             <div class="navigationLinks" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu() "></i>
                     <ul>
@@ -81,14 +81,14 @@
             </div>
 
             <div class="tovisit-col">
-                <img src="static/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg">
+                <img src="/Users/doryushnormatov/AUCAKIT2023/static/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg">
                 <div class="layer">
                     <h3>ISKANDERKUL</h3>
                 </div>
             </div>
 
             <div class="tovisit-col">
-                <img src="static/Edited-Pamir-Highway-1024x672.jpg">
+                <img src="/Users/doryushnormatov/AUCAKIT2023/static/Edited-Pamir-Highway-1024x672.jpg">
                 <div class="layer">
                     <h3>PAMIR HIGHWAY</h3>
                 </div>
@@ -127,7 +127,7 @@
 .headerOfWebSite{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/Pamir-Mountains-Tajikistan.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(/Users/doryushnormatov/AUCAKIT2023/static/Pamir-Mountains-Tajikistan.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
