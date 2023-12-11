@@ -14,7 +14,7 @@
 <body>  
     <section class="headerOfWebSite"> 
         <nav>
-            <a href="+page.svetle"><img src="src/routes/images/Mountain-logo-template-on-transparent-background-PNG.png"></a>
+            <img src = "static/favicon.png" alt="Descriptive Text">
             <div class="navigationLinks" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu() "></i>
                     <ul>
