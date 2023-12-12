@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+</script>
+
 <html lang= "en">
 
 <head>
@@ -74,21 +84,23 @@
 
         <div class="row">
             <div class="tovisit-col">
-                <img src="src/routes/images/стела.jpg">
+                <!-- svelte-ignore a11y-missing-attribute -->
+                <img src="static/стела.jpg">
                 <div class="layer">
                     <h3>DUSHANBE</h3>
                 </div>
             </div>
 
             <div class="tovisit-col">
-                <img src="src/routes/images/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg">
+                <img src="static/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg" alt="Iskanderkul Lake in the Fann Mountains of Tajikistan">
                 <div class="layer">
                     <h3>ISKANDERKUL</h3>
                 </div>
             </div>
 
             <div class="tovisit-col">
-                <img src="src/routes/images/Edited-Pamir-Highway-1024x672.jpg">
+                <!-- svelte-ignore a11y-missing-attribute -->
+                <img src="static/Edited-Pamir-Highway-1024x672.jpg">
                 <div class="layer">
                     <h3>PAMIR HIGHWAY</h3>
                 </div>
@@ -98,17 +110,6 @@
     </section>
 
 </body>
-
-<script>
-    var navLinks = document.getElementById("navLinks");
-
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px";
-        }
-</script>
 
 </html>
 
@@ -127,7 +128,7 @@
 .headerOfWebSite{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(src/routes/images/Pamir-Mountains-Tajikistan.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(static/Pamir-Mountains-Tajikistan.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
