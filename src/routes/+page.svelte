@@ -1,20 +1,9 @@
-<script>
-    var navLinks = document.getElementById("navLinks");
-
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px";
-        }
-</script>
-
+<!DOCTYPE html>
 <html lang= "en">
 
 <head>
     <meta name="viewport" content="with=device-width, initial-scale = 1.0">
     <title>Website about Tajikistan</title>
-    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -24,7 +13,7 @@
 <body>  
     <section class="headerOfWebSite"> 
         <nav>
-            <img src = "static/favicon.png" alt="Descriptive Text">
+            <img src = "static/Mountain-logo-template-on-transparent-background-PNG.png" alt="Descriptive Text">
             <div class="navigationLinks" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu() "></i>
                     <ul>
@@ -84,7 +73,6 @@
 
         <div class="row">
             <div class="tovisit-col">
-                <!-- svelte-ignore a11y-missing-attribute -->
                 <img src="static/стела.jpg">
                 <div class="layer">
                     <h3>DUSHANBE</h3>
@@ -92,14 +80,13 @@
             </div>
 
             <div class="tovisit-col">
-                <img src="static/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg" alt="Iskanderkul Lake in the Fann Mountains of Tajikistan">
+                <img src="static/Iskanderkul-Lake-Tajikistan-Fann-Mountains-3.jpg">
                 <div class="layer">
                     <h3>ISKANDERKUL</h3>
                 </div>
             </div>
 
             <div class="tovisit-col">
-                <!-- svelte-ignore a11y-missing-attribute -->
                 <img src="static/Edited-Pamir-Highway-1024x672.jpg">
                 <div class="layer">
                     <h3>PAMIR HIGHWAY</h3>
@@ -110,6 +97,17 @@
     </section>
 
 </body>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+</script>
 
 </html>
 
