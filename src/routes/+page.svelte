@@ -18,16 +18,17 @@
                 <i class="fa fa-times" onclick="hideMenu() "></i>
                     <ul>
                         <li><a href="">HOME</a></li>
-                        <li><a href="">TOURS WE OFFER</a></li>
+                        <li><a href="tours">TOURS</a></li>
                         <li><a href="https://github.com/normatov-d-auca-2021/webpagefall2023/blob/main/goals.md">GOALS</a></li>
-                        <li><a href="">TO VISIT</a></li>
-                        <li><a href="">CULTURE</a></li>
+                        <li><a href="">VISIT</a></li>
+                        <li><a href="culture">CULTURE</a></li>
                     </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
     <div class="textsBox">
+
         <h1>Welcome to Tajikistan</h1>
         <p>Tajikistan is a country in Central Asia consisting of 93% of mountains.<br> 
             It has 4 regions: Badakhshan, Khatlon, Sughd and Regions of Republician Subordinations.<br> 
@@ -60,7 +61,7 @@
 
             <div class ="placecol">
                 <h3>THREE-DAY TOUR</h3>
-                <p>Our 2-day tours in Tajikistan offer you an extended opportunity to delve deeper into this captivating land. 
+                <p>Our 3-day tours in Tajikistan offer you an extended opportunity to delve deeper into this captivating land. 
                     With an extra day, you can fully immerse yourself in Tajikistan's rich culture and breathtaking landscapes.</p>
             </div>
         </div>
@@ -69,7 +70,7 @@
     <!-------TO VISIT ------->
     <section class = "tovisit">
         <h1>TOP-3 PLACES YOU CAN VISIT</h1>
-        <p>Here you can find TOP-3 cities in Tajikistan that must be visited. They arefull of cultural and historical places.</p>
+        <p>Here you can find TOP-3 cities in Tajikistan that must be visited. They are full of cultural and historical places.</p>
 
         <div class="row">
             <div class="tovisit-col">
@@ -126,7 +127,7 @@
 .headerOfWebSite {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Pamir-Mountains-Tajikistan.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(222.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
