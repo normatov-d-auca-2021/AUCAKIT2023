@@ -11,7 +11,7 @@
 </head>
 
 <body>  
-    <section class="headerOfWebSite"> 
+    <section class="headerOfWebSite" style="min-height: 100vh; width: 100%; background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('222.jpg'); background-position: center; background-size: cover; position: relative;"> 
         <nav>
             <img src="Mountain-logo-template-on-transparent-background-PNG.png">
             <div class="navigationLinks" id="navLinks">
@@ -123,15 +123,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
-}
-
-.headerOfWebSite {
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(222.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
 }
 
 nav{
