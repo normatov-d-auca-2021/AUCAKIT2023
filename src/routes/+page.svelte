@@ -96,6 +96,51 @@
         </div>
     </section>
 
+    <section class="experience">
+        <h1>Our Experience</h1>
+        <p>.</p>
+
+        <div class="row">
+            <div class="experience-col" style="display: flex; align-items: center;">
+                <div style="flex: 50%;">
+                    <img src="exp1.jpeg" style="width: 100%;">
+                </div>
+                <div style="flex: 50%;">
+                    <!-- Add your text here -->
+                    <p style="font-size: 20px;">This is Josh, he is our first client who experienced travelling towards the north side - Khujand City. He also experienced trabelling to the small villages around the city</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="experience-col" style="display: flex; align-items: center;">
+                <div style="flex: 1; max-width: 50%;">
+                    <!-- Text here -->
+                    <p style="font-size: 20px;">This is Jessica, she is our  client who experienced travelling during the 3-day tour towards the east side - Pamir. She experienced the living in the mountatins and tried our national food like Qurutob, Osh, Shurbo.</p>
+                </div>
+                <div style="flex: 1; max-width: 50%;">
+                    <!-- Image here -->
+                    <img src="exp2.webp" style="width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="experience-col" style="display: flex; align-items: center;">
+                <div style="flex: 50%;">
+                    <img src="exp3.jpeg" style="width: 100%;">
+                </div>
+                <div style="flex: 50%;">
+                    <!-- Add your text here -->
+                    <p style="font-size: 20px;">These people are the travellers from Norway. We showed them the beauties of our nature during 2-days spending in Kulob City, and the closest villages</p>
+                </div>
+            </div>
+        </div>
+        
+
+         
+    </section>
+
 </body>
 
 <script>
@@ -352,6 +397,15 @@ h3{
 .layer:hover h3{
     bottom: 49%;
     opacity: 1;
+}
+
+/*-------FACILITIES-------*/
+
+.experience{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px; 
 }
 
 </style>
