@@ -95,6 +95,8 @@
             </div>
         </div>
 
+        <img src="222.jpg" alt="">
+
     </section>
 
 </body>
@@ -112,8 +114,7 @@
 
 </html>
 
-
-
+<!--------CSS FILE-------->
 
 <style>
 
