@@ -20,7 +20,7 @@
                         <li><a href="">HOME</a></li>
                         <li><a href="tours">TOURS</a></li>
                         <li><a href="https://github.com/normatov-d-auca-2021/webpagefall2023/blob/main/goals.md">GOALS</a></li>
-                        <li><a href="">VISIT</a></li>
+                        <li><a href="food">FOOD</a></li>
                         <li><a href="culture">CULTURE</a></li>
                     </ul>
             </div>
