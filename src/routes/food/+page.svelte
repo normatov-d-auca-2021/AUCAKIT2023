@@ -35,14 +35,6 @@
                         <h3>National Kurutob</h3>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
             </div>
         </section>
 
