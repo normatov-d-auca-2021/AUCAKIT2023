@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Kanit:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url('cul1.jpg.avif'); background-size: cover; background-position: center; margin: 0; font-family: 'Kanit', sans-serif; color: rgb(255, 255, 255);">
     <div class="content-overlay">
         <header>
             <!-- Navigation bar -->
@@ -21,7 +21,6 @@
                 <p>Explore the rich and vibrant culture of this beautiful country.</p>
 
                 <iframe width="700" height="500" src="https://www.youtube.com/embed/eJjHG70gf_c?si=7lxgVEjIl4C_OakG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
             </div>
         </section>
 
@@ -30,39 +29,28 @@
 
             <div class="row">
                 <div class="culture-col">
-                    <img src= "cull11.jpeg">
+                    <img src="cull11.jpeg">
                     <h3>National Dressings</h3>
                     <p>Kulob family</p>
                 </div>
 
                 <div class="culture-col">
-                    <img src= "cul111.jpeg">
+                    <img src="cul111.jpeg">
                     <h3>Pamiri Dress</h3>
                     <p>Pamiri Girl Dance</p>
                 </div>
 
                 <div class="culture-col">
-                    <img src= "culll.jpeg">
+                    <img src="culll.jpeg">
                     <h3>Antient Tajik</h3>
                 </div>
             </div>
         </section>
-
-        <!-- Add more sections about different aspects of Tajikistan's culture -->
     </div>
 </body>
 </html>
 
 <style>
-    body {
-        margin: 0;
-        font-family: 'Kanit', sans-serif;
-        background-image: url('cul1.jpg.avif');
-        background-size: cover;
-        background-position: center;
-        color: rgb(255, 255, 255);
-    }
-
     .content-overlay {
         background: rgba(30, 30, 30, 0.64); /* Dark transparent overlay */
         padding: 20px;
@@ -92,34 +80,34 @@
     }
 
     .culture {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
 
-.culture h1 {
-    color: white; /* Adjusted for visibility */
-    font-size: 50px;
-}
+    .culture h1 {
+        color: white; /* Adjusted for visibility */
+        font-size: 50px;
+    }
 
-.row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+    .row {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 
-.culture-col {
-    flex-basis: 30%; /* Adjust this value as needed */
-    margin: 10px;
-    border-radius: 10px;
-    text-align: center; /* Center align the content */
-}
+    .culture-col {
+        flex-basis: 30%; /* Adjust this value as needed */
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center; /* Center align the content */
+    }
 
-.culture-col img {
-    width: 100%; /* Adjust image width to fit the container */
-    border-radius: 10px;
-    margin-bottom: 15px; /* Space between image and text */
-}
-
+    .culture-col img {
+        width: 100%; /* Adjust image width to fit the container */
+        border-radius: 10px;
+        margin-bottom: 15px; /* Space between image and text */
+    }
 </style>
+
